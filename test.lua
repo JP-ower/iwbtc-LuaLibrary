@@ -1,1 +1,1 @@
-GameCamera.TSetCameraMode(GameCamera.CameraMode.LockLevel)
+GameCamera.TSetCameraMode(GameCamera.CameraMode.None)
