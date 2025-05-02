@@ -1,6 +1,28 @@
 ---@meta ic_GameCamera
 ---@class ic_GameCameralib
 GameCamera = {}
+---摄像机模式
+GameCamera.CameraMode= {
+    None = 0, ---默认模式
+    LockLevel = 1, ---锁定关卡
+    LockRect = 2, ---锁定区域
+    LockTransform = 3, ---跟随单位
+}
+---注意，CameraMode是userdata类型的数据，但为了模拟，将其定义为数字类型。
+---请不要在CameraMode类型的参数中填写数字！
+---@alias CameraMode
+---|    `GameCamera.CameraMode.None` 默认模式
+---|    `GameCamera.CameraMode.LockLevel`   锁定关卡
+---|    `GameCamera.CameraMode.LockRect`   锁定区域
+---|    `GameCamera.CameraMode.LockTransform`   跟随单位: 在创建角色的函数中就把摄像机设为了LockTransform模式。
+---
+---'None': 默认模式
+---
+---<code>LockLevel </code>: 
+---
+---<code>LockRect </code>: 
+---
+---<code>LockTransform </code>: 
 
 ---
 ---参数: <code>size</code> 实数 —— 显示范围大小
@@ -133,5 +155,13 @@ function GameCamera.SetXPosOffset( offset ) end
 ---@nodiscard
 function GameCamera.GetXPosOffset() end
 
+---
+---参数: <code>CameraMode</code> CameraMode —— 摄像机模式
+---
+---设置摄像机模式
+---
+---
+---@param cameraMode CameraMode
+function GameCamera.TSetCameraMode(cameraMode) end
 
 ---
