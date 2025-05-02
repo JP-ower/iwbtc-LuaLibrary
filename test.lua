@@ -1,1 +1,0 @@
-GameCamera.TSetCameraMode(GameCamera.CameraMode.None)
