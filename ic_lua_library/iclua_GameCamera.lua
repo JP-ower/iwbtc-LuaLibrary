@@ -16,11 +16,12 @@ GameCamera = {
         LockRect = 2, --锁定区域
         LockTransform = 3, --跟随单位
     },
-
-    ---@param size number
+    
+    ---设置摄像机显示范围.
+    ---@param size number 摄像机显示范围
     SetCameraOrthographicSize = function( size ) end,
 
-    ---摄像机显示范围.
+    ---获取摄像机显示范围.
     ---@return number 摄像机显示范围
     ---@nodiscard
     GetCameraOrthographicSize = function() end,
@@ -124,4 +125,19 @@ GameCamera = {
     ---@nodiscard
     TGetCameraMode = function() end,
 
+    ---摄像机模式比较等推出ComparisonOperator2再写
+
+    ---判断二维向量是否在屏幕范围内
+    ---@param vec UnityEngine.Vector2 二维向量
+    ---@return boolean 是否在屏幕范围内
+    ---@nodiscard
+    ContainsVec = function(vec) end,
+
+    ---判断单位是否在屏幕范围内
+    ---@param unit Unit 单位
+    ---@return boolean 是否在屏幕范围内
+    ---@nodiscard
+    ContainsUnit = function(unit) end,
+
+    ---等待补充...
 }

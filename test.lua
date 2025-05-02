@@ -1,10 +1,7 @@
 function print(...)
-    UI_InfoPanel.AddInfo(...,-1);
+	UI_InfoPanel.AddInfo( ..., -1)
 end
 
-local i = Data.GetLevelVer()
-local j = Data.GetLevelGameVer()
-local k = Data.GetGameVer()
-print(i)
-print(j)
-print(k)
+local b = UnityEngine.Vector2(0,1)
+print(b.x)
+print(b.y)
