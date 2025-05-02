@@ -79,7 +79,49 @@ GameCamera = {
     ---@nodiscard
     GetXPosOffset = function() end,
 
+    ---设置是否锁定Y坐标（跟随单位模式下）
+    ---@param status boolean 是否锁定Y坐标
+    SetLockY = function(status) end,
+
+    ---获取当前是否处于“锁定Y坐标”状态（跟随单位模式下）
+    ---@return boolean 是否锁定Y坐标
+    ---@nodiscard
+    GetLockY = function() end,
+
+    ---设置锁定的Y坐标（跟随单位模式下）
+    ---@param pos number 锁定Y坐标
+    SetLockYPos = function( pos ) end,
+
+    ---获取锁定的Y坐标（跟随单位模式下）
+    ---@return number 锁定Y坐标
+    ---@nodiscard
+    GetLockYPos = function() end,
+
+    ---设置Y坐标偏移（跟随单位模式下）
+    ---@param offset number Y坐标偏移量
+    SetYPosOffset = function( offset ) end,
+
+    ---获取Y坐标偏移（跟随单位模式下）
+    ---@return number Y坐标偏移量
+    ---@nodiscard
+    GetYPosOffset = function() end,
+
+    ---设置旋转角度
+    ---@param angle number 旋转角度
+    SetRotate = function( angle ) end,
+
+    ---获取旋转角度
+    ---@return number 旋转角度
+    ---@nodiscard
+    GetRotate = function() end,
+
     ---设置摄像机模式
     ---@param cameraMode CameraMode 摄像机模式
-    TSetCameraMode = function(cameraMode) end
+    TSetCameraMode = function(cameraMode) end,
+
+    ---获取摄像机模式
+    ---@return CameraMode 摄像机模式
+    ---@nodiscard
+    TGetCameraMode = function() end,
+
 }
