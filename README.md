@@ -10,3 +10,8 @@
 3. 打开 VSCode ，打开你的工作区文件夹。在 VSCode 的 Extensions（插件）中搜索 lua ，找到作者为 sumneko 的 Lua 插件（一般是第一个），点击 Install 下载。
 4. 使用快捷键 "Ctrl + ," ,搜索"lua workspace library"，点击 "Add Item.." ，在列表中把你解压的路径写进去。
 5. 在工作区新建一个文件，文件名以 ".lua"结尾，然后可以在里面写代码了。如果输入"GameCa",应该可以显示"GameCamera"的提示.
+6. 编写完代码后，将代码全选然后粘贴在你的 iwbtc 中。
+
+## 编写建议
+1. 如果有多个 lua 代码需要相互调用，那么它们在 VScode 中也要同目录，这样就会有调用的代码提示。（借助插件）
+2. 如果希望借助AI的自动补全功能，可以下载MarsCode/Trae 等 AI 插件。
