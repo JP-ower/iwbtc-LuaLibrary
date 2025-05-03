@@ -24,12 +24,12 @@ Data = {
     GetGameUIResolution = function() end,
 
     ---获取游戏UI分辨率(X)
-    ---@return number 游戏UI分辨率(X)
+    ---@return Single 游戏UI分辨率(X)
     ---@nodiscard
     GetGameUIResolution_X = function() end,
 
     ---获取游戏UI分辨率(Y)
-    ---@return number 游戏UI分辨率(Y)
+    ---@return Single 游戏UI分辨率(Y)
     ---@nodiscard
     GetGameUIResolution_Y = function() end,
 
@@ -39,12 +39,12 @@ Data = {
     GetScreenResolution = function() end,
 
     ---获取屏幕分辨率(X)
-    ---@return number 屏幕分辨率(X)
+    ---@return Single 屏幕分辨率(X)
     ---@nodiscard
     GetScreenResolution_X = function() end,
 
     ---获取屏幕分辨率(Y)
-    ---@return number 屏幕分辨率(Y)
+    ---@return Single 屏幕分辨率(Y)
     ---@nodiscard
     GetScreenResolution_Y = function() end,
 
@@ -52,7 +52,7 @@ Data = {
     ---```
     ---ic大厅的左上角即可看到你的版本号
     ---```
-    ---@return number 当前游戏版本
+    ---@return Single 当前游戏版本
     ---@nodiscard
     GetGameVer = function() end ,
 
@@ -60,7 +60,7 @@ Data = {
     ---```
     ---指的是作者在制作关卡时，使用的游戏版本
     ---```
-    ---@return number 关卡的游戏制作版本
+    ---@return Single 关卡的游戏制作版本
     ---@nodiscard
     GetLevelGameVer = function() end,
 
@@ -68,7 +68,7 @@ Data = {
     ---```
     ---在游戏信息中可以查看关卡版本
     ---```
-    ---@return number 关卡版本
+    ---@return Single 关卡版本
     ---@nodiscard
     GetLevelVer = function() end,
 }

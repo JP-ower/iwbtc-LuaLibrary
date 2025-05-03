@@ -1,12 +1,6 @@
 ---@meta ic_GameCamera
 ---@class GameCamera
 
-
----@alias CameraMode 
----|    `GameCamera.CameraMode.None`--默认模式
----|    `GameCamera.CameraMode.LockLevel`--锁定关卡
----|    `GameCamera.CameraMode.LockRect`--锁定区域
----|    `GameCamera.CameraMode.LockTransform`--跟随单位
 GameCamera = {
     ---摄像机模式
     ---注意在ic中摄像机模式属于userdata，不是整数，不能直接填整数。
@@ -18,38 +12,38 @@ GameCamera = {
     },
     
     ---设置摄像机显示范围.
-    ---@param size number 摄像机显示范围
+    ---@param size Single 摄像机显示范围
     SetCameraOrthographicSize = function( size ) end,
 
     ---获取摄像机显示范围.
-    ---@return number 摄像机显示范围
+    ---@return Single 摄像机显示范围
     ---@nodiscard
     GetCameraOrthographicSize = function() end,
 
     ---设置摄像机最小显示范围.
-    ---@param size number 摄像机最小显示范围
+    ---@param size Single 摄像机最小显示范围
     SetCameraMinOrthographicSize = function( size ) end,
 
     ---摄像机最小显示范围.
-    ---@return number 摄像机最小显示范围
+    ---@return Single 摄像机最小显示范围
     ---@nodiscard
     GetCameraMinOrthographicSize = function() end,
     
     ---设置摄像机X坐标为指定值.
-    ---@param x number X坐标
+    ---@param x Single X坐标
     SetXPos = function( x ) end,
 
     ---设置摄像机Y坐标为指定值.
-    ---@param y number Y坐标
+    ---@param y Single Y坐标
     SetYPos = function( y ) end,
 
     ---获取摄像机X坐标.
-    ---@return number X坐标
+    ---@return Single X坐标
     ---@nodiscard
     GetXPos = function() end,
 
     ---获取摄像机Y坐标.
-    ---@return number Y坐标
+    ---@return Single Y坐标
     ---@nodiscard
     GetYPos = function() end,
 
@@ -63,20 +57,20 @@ GameCamera = {
     GetLockX = function() end,
 
     ---设置锁定的X坐标（跟随单位模式下）
-    ---@param pos number 锁定X坐标
+    ---@param pos Single 锁定X坐标
     SetLockXPos = function( pos ) end,
 
     ---获取锁定的X坐标（跟随单位模式下）
-    ---@return number 锁定X坐标
+    ---@return Single 锁定X坐标
     ---@nodiscard
     GetLockXPos = function() end,
 
     ---设置X坐标偏移（跟随单位模式下）
-    ---@param offset number X坐标偏移量
+    ---@param offset Single X坐标偏移量
     SetXPosOffset = function( offset ) end,
 
     ---获取X坐标偏移（跟随单位模式下）
-    ---@return number X坐标偏移量
+    ---@return Single X坐标偏移量
     ---@nodiscard
     GetXPosOffset = function() end,
 
@@ -90,29 +84,29 @@ GameCamera = {
     GetLockY = function() end,
 
     ---设置锁定的Y坐标（跟随单位模式下）
-    ---@param pos number 锁定Y坐标
+    ---@param pos Single 锁定Y坐标
     SetLockYPos = function( pos ) end,
 
     ---获取锁定的Y坐标（跟随单位模式下）
-    ---@return number 锁定Y坐标
+    ---@return Single 锁定Y坐标
     ---@nodiscard
     GetLockYPos = function() end,
 
     ---设置Y坐标偏移（跟随单位模式下）
-    ---@param offset number Y坐标偏移量
+    ---@param offset Single Y坐标偏移量
     SetYPosOffset = function( offset ) end,
 
     ---获取Y坐标偏移（跟随单位模式下）
-    ---@return number Y坐标偏移量
+    ---@return Single Y坐标偏移量
     ---@nodiscard
     GetYPosOffset = function() end,
 
     ---设置旋转角度
-    ---@param angle number 旋转角度
+    ---@param angle Single 旋转角度
     SetRotate = function( angle ) end,
 
     ---获取旋转角度
-    ---@return number 旋转角度
+    ---@return Single 旋转角度
     ---@nodiscard
     GetRotate = function() end,
 
@@ -125,10 +119,14 @@ GameCamera = {
     ---@nodiscard
     TGetCameraMode = function() end,
 
-    ---摄像机模式比较等推出ComparisonOperator2再写
+    ---摄像机模式比较（判断当前计算机是否处于某模式）
+    ---@param co2 ComparisonOperator2 比较符号
+    ---@param cameraMode CameraMode 摄像机模式
+    ---@return boolean 摄像机模式比较结果
+    TCameraModeCompare = function(co2,cameraMode) end,
 
     ---判断二维向量是否在屏幕范围内
-    ---@param vec UnityEngine.Vector2 二维向量
+    ---@param vec Vector2 二维向量
     ---@return boolean 是否在屏幕范围内
     ---@nodiscard
     ContainsVec = function(vec) end,
@@ -139,5 +137,9 @@ GameCamera = {
     ---@nodiscard
     ContainsUnit = function(unit) end,
 
+    ---获取摄像机坐标
+    ---@return Vector2 摄像机坐标
+    ---@nodiscard
+    GetCameraPos = function () end,
     ---等待补充...
 }

@@ -13,12 +13,12 @@ UI_InfoPanel = {
     ---一般使用时建议封装进print
     ---```
     ---@param info string 信息
-    ---@param time number 显示时间(-1表示默认)
+    ---@param time Single 显示时间(-1表示默认)
     AddInfo = function (info,time)  end,
 
     ---清空并添加信息
     ---@param info string 信息
-    ---@param time number 显示时间(-1表示默认)
+    ---@param time Single 显示时间(-1表示默认)
     ClearAndAddInfo = function (info,time)  end,
 
     ---清空信息
