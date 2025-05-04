@@ -13,3 +13,4 @@ end
 local bbb = Vector2(1,1)
 local ccc = Vector2(2,2)
 print(bbb.x+ccc.y)
+local i = TimeManager.GetNowToString()
