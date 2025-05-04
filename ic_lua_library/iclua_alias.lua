@@ -7,3 +7,4 @@
 ---@alias Vector2 UnityEngine.Vector2
 ---@alias Single number
 ---@alias Int32 number
+---@alias Object nil|boolean|number|string|table|userdata|
