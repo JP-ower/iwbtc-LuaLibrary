@@ -10,5 +10,6 @@ print = function(...)
     UI_InfoPanel.AddInfo(str, -1)
 end
 
-local i = TimeManager
-print(type(i))
+local bbb = Vector2(1,1)
+local ccc = Vector2(2,2)
+print(bbb.x+ccc.y)
