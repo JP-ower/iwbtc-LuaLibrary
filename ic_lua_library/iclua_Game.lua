@@ -101,6 +101,7 @@ Game = {
 
     ---获取游戏菜单禁用状态（<code>true</code>:禁用）
     ---@return boolean 游戏菜单禁用状态
+    ---@nodiscard
     GetUnGameMenuState = function () end,
 
     ---设置Tab键禁用状态（<code>true</code>:禁用）
@@ -109,6 +110,7 @@ Game = {
 
     ---获取Tab键禁用状态（<code>true</code>:禁用）
     ---@return boolean Tab键禁用状态
+    ---@nodiscard
     GetTabState = function () end,
 
     ---重新开始游戏
