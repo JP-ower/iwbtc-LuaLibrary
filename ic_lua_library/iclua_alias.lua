@@ -4,6 +4,32 @@
 ---|    `GameCamera.CameraMode.LockRect`--锁定区域
 ---|    `GameCamera.CameraMode.LockTransform`--跟随单位
 
+---@alias CameraShader
+---|    `GameCamera.CameraShader.EarthQuake` -- 抖动
+---|    `GameCamera.CameraShader.Manga_Flash_Color` -- 漫画闪光
+---|    `GameCamera.CameraShader.Drunk` -- 眩晕
+---|    `GameCamera.CameraShader.TV` -- TV
+---|    `GameCamera.CameraShader.Pixel` -- 像素化
+---|    `GameCamera.CameraShader.Blurry` -- 模糊
+---|    `GameCamera.CameraShader.TV50` -- TV50
+---|    `GameCamera.CameraShader.TV80` -- TV80
+---|    `GameCamera.CameraShader.BluePrint` -- 蓝图
+---|    `GameCamera.CameraShader.Comics` -- 漫画
+---|    `GameCamera.CameraShader.CompressionFX` -- BUG
+---|    `GameCamera.CameraShader.NightVision2` -- 夜视
+---|    `GameCamera.CameraShader.Rain_Pro` -- 下雨
+---|    `GameCamera.CameraShader.Spot` -- 黑暗
+---|    `GameCamera.CameraShader.Grain` -- 颗粒
+---|    `GameCamera.CameraShader.Dream2` -- 晃动
+---|    `GameCamera.CameraShader.Wave_Horizontal` -- 水中
+---|    `GameCamera.CameraShader.Twist` -- 扭曲
+---|    `GameCamera.CameraShader.BigFace` -- 放大
+---|    `GameCamera.CameraShader.BleachBypass` -- 漂白
+---|    `GameCamera.CameraShader.GrayScale` -- 灰度
+---|    `GameCamera.CameraShader.Invert` -- 反色
+---|    `GameCamera.CameraShader.HSV` -- 颜色调整
+---|    `GameCamera.CameraShader.RGB` -- 颜色叠加
+
 ---@alias Vector2 UnityEngine.Vector2
 ---@alias Color UnityEngine.Color
 ---@alias Single number
