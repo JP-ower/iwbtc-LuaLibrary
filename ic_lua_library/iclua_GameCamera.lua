@@ -141,5 +141,61 @@ GameCamera = {
     ---@return Vector2 摄像机坐标
     ---@nodiscard
     GetCameraPos = function () end,
-    ---等待补充...
+    
+    ---屏幕坐标转世界坐标
+    ---@param ScreenPos Vector2 屏幕坐标
+    ---@return Vector2 世界坐标
+    ---@nodiscard
+    ScreenToWorldPoint = function(ScreenPos) end,
+    
+    ---屏幕坐标转世界坐标（比例）
+    ---@param ScreenPos Vector2 屏幕坐标
+    ---@return Vector2 世界坐标
+    ---@nodiscard
+    ScreenToWorldPoint_Scale = function(ScreenPos) end,
+
+    ---世界坐标转屏幕坐标
+    ---@param WorldPos Vector2 世界坐标
+    ---@return Vector2 屏幕坐标
+    ---@nodiscard
+    WorldToScreenPoint = function(WorldPos) end,
+
+    ---世界坐标转屏幕坐标（比例）
+    ---@param WorldPos Vector2 世界坐标
+    ---@return Vector2 屏幕坐标
+    WorldToScreenPointScale = function(WorldPos) end,
+
+    ---屏幕坐标（比例）转屏幕坐标
+    ---@param ScreenPos Vector2 屏幕坐标（比例）
+    ---@return Vector2 屏幕坐标
+    ---@nodiscard
+    ScreenScaleToScreenPoint = function(ScreenPos) end,
+
+    ---屏幕坐标转屏幕坐标（比例）
+    ---@param ScreenPos Vector2 屏幕坐标
+    ---@return Vector2 屏幕坐标（比例）
+    ---@nodiscard
+    ScreenPointToScreenScale = function(ScreenPos) end,
+
+    ---设置黑边范围（单位）
+    ---@param unit Unit 黑边范围参考单位
+    SetBoundary_Unit = function(unit) end,
+
+    ---设置黑边显示状态（布尔）
+    ---@param status boolean 黑边显示状态
+    SetBoundaryActive = function(status) end,
+
+    ---获取黑边显示状态
+    ---@return boolean 黑边显示状态
+    ---@nodiscard
+    GetBoundaryActiveSelf = function() end,
+
+    ---设置黑边颜色
+    ---@param color Color 黑边颜色
+    SetBoundaryColor = function(color) end,
+
+    ---获取黑边颜色
+    ---@return Color 黑边颜色
+    ---@nodiscard
+    GetBoundaryColor = function() end,
 }

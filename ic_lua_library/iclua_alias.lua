@@ -5,6 +5,7 @@
 ---|    `GameCamera.CameraMode.LockTransform`--跟随单位
 
 ---@alias Vector2 UnityEngine.Vector2
+---@alias Color UnityEngine.Color
 ---@alias Single number
 ---@alias Int32 number
 ---@alias Object nil|boolean|number|string|table|userdata

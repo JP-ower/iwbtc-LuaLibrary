@@ -9,6 +9,17 @@ UnityEngine.Vector2 = {
     y = 0,
 }
 
+---@class UnityEngine.Color
+---@field r number 红色
+---@field g number 绿色
+---@field b number 蓝色
+---@field a number 透明度
+UnityEngine.Color = {
+    r = 0,
+    g = 0,
+    b = 0,
+    a = 0,
+}
 
 ---二维向量构造方法
 ---@param x Single
