@@ -8,6 +8,11 @@ GameBackground = {
     GetInstance = function() end,
 
     ---设置游戏背景
+    ---```lua
+    ---使用方法：
+    ---GameBackground.Set(GameBackgroundData.GetGameBackgroundData("BG3"))
+    ---BG3的位置填写的是背景数据的id，可以进背景数据右键获取id
+    ---```
     ---@param data GameBackgroundData 游戏背景数据
     Set = function(data) end,
 
