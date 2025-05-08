@@ -35,4 +35,3 @@
 ---@alias Single number
 ---@alias Int32 number
 ---@alias Object nil|boolean|number|string|table|userdata
----@alias GameBackgroundData userdata

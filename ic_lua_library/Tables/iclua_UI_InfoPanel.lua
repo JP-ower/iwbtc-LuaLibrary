@@ -1,4 +1,4 @@
----@meta ic_UI_InfoPanel
+---@meta
 ---@class UI_InfoPanel
 ---已完成！
 

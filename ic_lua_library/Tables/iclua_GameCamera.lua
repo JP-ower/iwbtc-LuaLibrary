@@ -1,4 +1,4 @@
----@meta ic_GameCamera
+---@meta
 ---@class GameCamera
 ---已完成！
 

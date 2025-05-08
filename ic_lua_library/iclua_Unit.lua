@@ -1,4 +1,4 @@
----@meta ic_Unit
+---@meta
 ---@class Unit
 
 Unit = {

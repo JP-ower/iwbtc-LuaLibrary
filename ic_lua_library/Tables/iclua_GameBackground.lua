@@ -1,4 +1,4 @@
----@meta ic_GameBackground
+---@meta
 ---@class GameBackground
 ---已完成！
 GameBackground = {

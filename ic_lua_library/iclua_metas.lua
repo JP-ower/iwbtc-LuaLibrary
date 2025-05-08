@@ -1,4 +1,4 @@
----@meta ic_metas
+---@meta
 ---@class UnityEngine
 UnityEngine = {}
 ---@class UnityEngine.Vector2

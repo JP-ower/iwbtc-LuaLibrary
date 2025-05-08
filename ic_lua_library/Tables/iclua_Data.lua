@@ -1,4 +1,4 @@
----@meta ic_Data
+---@meta
 ---@class Data
 ---已完成！
 

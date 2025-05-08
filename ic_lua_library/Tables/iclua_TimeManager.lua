@@ -1,4 +1,4 @@
----@meta ic_TimeManager
+---@meta
 ---@class TimeManager
 ---已完成！
 

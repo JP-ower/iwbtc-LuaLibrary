@@ -1,4 +1,4 @@
----@meta ic_Game
+---@meta
 ---@class Game
 ---已完成！
 

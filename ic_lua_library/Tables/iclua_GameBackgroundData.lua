@@ -1,4 +1,4 @@
----@meta ic_GameBackgroundData
+---@meta
 ---@class GameBackgroundData
 ---已完成！
 GameBackgroundData = {
