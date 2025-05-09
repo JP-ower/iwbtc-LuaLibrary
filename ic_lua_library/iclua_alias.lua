@@ -30,6 +30,19 @@
 ---|    `GameCamera.CameraShader.HSV` -- 颜色调整
 ---|    `GameCamera.CameraShader.RGB` -- 颜色叠加
 
+---@alias PlaceLayer
+---|    `UnitData.PlaceLayer.Unit` -- 单位
+---|    `UnitData.PlaceLayer.Decoration` -- 装饰
+---|    `UnitData.PlaceLayer.Path` -- 路径
+---|    `UnitData.PlaceLayer.Rect` -- 区域
+---|    `UnitData.PlaceLayer.Custom` -- 其他
+---|    `UnitData.PlaceLayer.Custom2` -- 其他2
+---|    `UnitData.PlaceLayer.Custom3` -- 其他3
+---|    `UnitData.PlaceLayer.Custom4` -- 其他4
+---|    `UnitData.PlaceLayer.Custom5` -- 其他5
+---|    `UnitData.PlaceLayer.Player` -- 玩家
+---|    `UnitData.PlaceLayer.Monster` -- 怪物
+
 ---@alias Vector2 UnityEngine.Vector2
 ---@alias Color UnityEngine.Color
 ---@alias Single number

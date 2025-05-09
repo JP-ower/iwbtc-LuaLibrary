@@ -8,7 +8,7 @@ local progress = {
     TimeManager, --OK!
     Game, --OK!
     GameBackground, --OK!
-    GamePhysics,
+    GamePhysics, --OK!
     GameResourceManager,
     GameWorld,
     Multiplayer,

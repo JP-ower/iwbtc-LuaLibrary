@@ -13,3 +13,7 @@ VariableType = {}
 ---数据值
 ---@class VarData
 VarData = {}
+
+---RaycastHitInfo
+---@class RaycastHitInfo
+RaycastHitInfo = {}
