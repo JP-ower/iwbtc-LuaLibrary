@@ -43,8 +43,25 @@
 ---|    `UnitData.PlaceLayer.Player` -- 玩家
 ---|    `UnitData.PlaceLayer.Monster` -- 怪物
 
+---@alias ControlKey
+---|    `ControlKey.None` -- 无按键
+---|    `ControlKey.Up` -- 上
+---|    `ControlKey.Down` -- 下
+---|    `ControlKey.Left` -- 左
+---|    `ControlKey.Right` -- 右
+---|    `ControlKey.Jump` -- 跳跃
+---|    `ControlKey.Item` -- 物品
+---|    `ControlKey.Interaction` -- 交互
+---|    `ControlKey.Revive` -- 复活
+---|    `ControlKey.UseItem` -- 使用物品
+---|    `ControlKey.MJump` -- 小跳
+
 ---@alias Vector2 UnityEngine.Vector2
+---@alias Vector3 UnityEngine.Vector3
+---@alias Vector2Int UnityEngine.Vector2Int
+---@alias Vector3Int UnityEngine.Vector3Int
 ---@alias Color UnityEngine.Color
+---@alias Sprite UnityEngine.Sprite
 ---@alias Single number
 ---@alias Int32 number
----@alias Object nil|boolean|number|string|table|userdata
+---@alias Object nil|boolean|number|string|table|function|userdata|thread

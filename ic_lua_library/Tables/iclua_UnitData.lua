@@ -14,4 +14,10 @@ UnitData = {
         Player = 9, -- 玩家
         Monster = 10, -- 怪物
     },
+
+    ---通过ID获取单位数据
+    ---@param id string 单位ID
+    ---@return UnitData 单位数据
+    ---@nodiscard
+    GetUnitData = function(id) end,
 }

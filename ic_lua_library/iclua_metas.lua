@@ -8,6 +8,31 @@ UnityEngine.Vector2 = {
     x = 0,
     y = 0,
 }
+---@class UnityEngine.Vector3
+---@field x number X坐标
+---@field y number Y坐标
+---@field z number Z坐标
+UnityEngine.Vector3 = {
+    x = 0,
+    y = 0,
+    z = 0, 
+}
+---@class UnityEngine.Vector2Int
+---@field x number X坐标
+---@field y number Y坐标
+UnityEngine.Vector2Int = {
+    x = 0,
+    y = 0, 
+}
+---@class UnityEngine.Vector3Int
+---@field x number X坐标
+---@field y number Y坐标
+---@field z number Z坐标
+UnityEngine.Vector3Int = {
+    x = 0,
+    y = 0,
+    z = 0, 
+}
 
 ---@class UnityEngine.Color
 ---@field r number 红色
@@ -19,6 +44,10 @@ UnityEngine.Color = {
     g = 0,
     b = 0,
     a = 0,
+}
+---@class UnityEngine.Sprite
+UnityEngine.Sprite = {
+    
 }
 
 ---二维向量构造方法

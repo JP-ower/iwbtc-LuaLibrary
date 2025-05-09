@@ -1,4 +1,4 @@
----ic内部函数进度： 10/85
+---ic内部函数进度： 18/85
 
 local progress = {
     GameCamera, --OK!
@@ -9,10 +9,10 @@ local progress = {
     Game, --OK!
     GameBackground, --OK!
     GamePhysics, --OK!
-    GameResourceManager,
+    GameResourceManager, --OK！
     GameWorld,
     Multiplayer,
-    AnimationData,
+    AnimationData, --OK!
     AudioData,
     CustomFunctionData,
     GameBackgroundData, --OK!
@@ -22,13 +22,13 @@ local progress = {
     TimeLineData,
     TriggerData,
     ColorData,
-    UnitData,
+    UnitData, --OK!
     FileManager,
     JFY_CurvilinearMotion,
     JFY_TransitionEffect,
     Level, --OK!
     MusicManager,
-    Player,
+    Player, --OK!
     PlayerGroup,
     UnitControl,
     ServerData,
@@ -36,10 +36,10 @@ local progress = {
     CharacterString,
     EntitySprite,
     EntityText,
-    EnumData,
+    EnumData, --OK!
     ExpressGratitude,
     LuaTool,
-    Math,
+    Math, --OK!
     ObjectControl,
     ShaderManager,
     SpriteManager,
@@ -77,7 +77,7 @@ local progress = {
     PlayerUnitX,
     RoleUnit,
     UnitState,
-    Unit,
+    Unit, --OK!
     UnitGroup,
     RaycastHitInfo,
     RaycastParameter,
