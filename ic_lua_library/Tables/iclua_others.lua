@@ -38,3 +38,35 @@ AnimationData = {
    ---@nodiscard
    GetAnimationData = function(id) end; 
 }
+
+---@class GameWorld
+GameWorld = {
+    ---关卡返回的信息
+    ---@type string
+    levelReturnInfo = "";
+}
+
+---@class AudioData
+AudioData = {
+    ---通过ID获取音频
+    ---@param id string 音频ID
+    ---@return AudioData 音频数据
+    ---@nodiscard
+    GetAudioClip = function(id) end;
+}
+
+---@class CustomFunctionData
+CustomFunctionData = {
+    ---设置返回值
+    ---@param val Object 返回值
+    SetReturnValue = function(val) end; 
+}
+
+---@class SkillData
+SkillData = {
+    ---通过ID获取技能数据
+    ---@param id string 技能ID
+    ---@return SkillData 技能数据 
+    ---@nodiscard
+    GetUnitData = function(id) end;
+}

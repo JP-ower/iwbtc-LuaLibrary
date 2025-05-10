@@ -25,6 +25,7 @@ ArithmeticOperator_Vector = {}
 ---二进制运算符
 ---@class ArithmeticOperator_Binary
 ArithmeticOperator_Binary = {}
+
 ---数据类型
 ---@class VariableType
 VariableType = {}
@@ -36,3 +37,19 @@ VarData = {}
 ---RaycastHitInfo
 ---@class RaycastHitInfo
 RaycastHitInfo = {}
+
+---事件组
+---@class EventDataArray
+EventDataArray = {}
+
+---条件组
+---@class ConditionDataArray
+ConditionDataArray = {}
+
+---动作组
+---@class ActionDataArray
+ActionDataArray = {}
+
+---时间轴节点
+---@class TimeLineNodeData
+TimeLineNodeData = {}

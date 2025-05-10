@@ -1,6 +1,7 @@
 ---@meta
 ---@class UnityEngine
 UnityEngine = {}
+
 ---@class UnityEngine.Vector2
 ---@field x number X坐标
 ---@field y number Y坐标
@@ -8,6 +9,7 @@ UnityEngine.Vector2 = {
     x = 0,
     y = 0,
 }
+
 ---@class UnityEngine.Vector3
 ---@field x number X坐标
 ---@field y number Y坐标
@@ -17,6 +19,7 @@ UnityEngine.Vector3 = {
     y = 0,
     z = 0, 
 }
+
 ---@class UnityEngine.Vector2Int
 ---@field x number X坐标
 ---@field y number Y坐标
@@ -24,6 +27,7 @@ UnityEngine.Vector2Int = {
     x = 0,
     y = 0, 
 }
+
 ---@class UnityEngine.Vector3Int
 ---@field x number X坐标
 ---@field y number Y坐标
@@ -46,9 +50,13 @@ UnityEngine.Color = {
     a = 0,
 }
 ---@class UnityEngine.Sprite
-UnityEngine.Sprite = {
-    
-}
+UnityEngine.Sprite = {}
+
+---@class UnityEngine.AudioSource
+UnityEngine.AudioSource = {}
+
+---@class UnityEngine.AudioClip
+UnityEngine.AudioClip = {}
 
 ---二维向量构造方法
 ---@param x Single

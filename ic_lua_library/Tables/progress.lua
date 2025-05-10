@@ -1,34 +1,34 @@
----ic内部函数进度： 18/85
+---ic内部函数进度： 30/83
 
 local progress = {
-    GameCamera, --OK!
-    DamageData,  --OK!
-    Data, --OK!
-    DataGroup, --OK!
-    TimeManager, --OK!
-    Game, --OK!
-    GameBackground, --OK!
-    GamePhysics, --OK!
-    GameResourceManager, --OK！
-    GameWorld,
-    Multiplayer,
-    AnimationData, --OK!
-    AudioData,
-    CustomFunctionData,
-    GameBackgroundData, --OK!
-    ItemData,
-    ParameterDataArray,
-    SkillData,
-    TimeLineData,
-    TriggerData,
+    GameCamera, --OK
+    DamageData,  --OK
+    Data, --OK
+    DataGroup, --OK
+    TimeManager, --OK
+    Game, --OK
+    GameBackground, --OK
+    GamePhysics, --OK
+    GameResourceManager, --OK
+    GameWorld, --OK
+    Multiplayer, --OK
+    AnimationData, --OK
+    AudioData, --OK
+    CustomFunctionData, --OK
+    GameBackgroundData, --OK
+    ItemData, --OK
+    ParameterDataArray,--OK
+    SkillData,--OK
+    TimeLineData, --OK
+    TriggerData, --OK
     ColorData,
-    UnitData, --OK!
-    FileManager,
+    UnitData, --OK
+    FileManager, --OK
     JFY_CurvilinearMotion,
     JFY_TransitionEffect,
-    Level, --OK!
-    MusicManager,
-    Player, --OK!
+    Level, --OK
+    MusicManager, --OK
+    Player, --OK
     PlayerGroup,
     UnitControl,
     ServerData,
@@ -36,10 +36,10 @@ local progress = {
     CharacterString,
     EntitySprite,
     EntityText,
-    EnumData, --OK!
+    EnumData, --OK
     ExpressGratitude,
     LuaTool,
-    Math, --OK!
+    Math, --OK
     ObjectControl,
     ShaderManager,
     SpriteManager,
@@ -61,8 +61,8 @@ local progress = {
     UI_VirtualKeyManager,
     UI_DialogBox,
     UI_FloatingText,
-    UI_InfoBox,
-    UI_InfoPanel, --OK!
+    UI_InfoBox, --OK    
+    UI_InfoPanel, --OK
     ExtendedSetInfoData,
     UI_TextInputBox,
     UI_XEventCallback,
@@ -77,7 +77,7 @@ local progress = {
     PlayerUnitX,
     RoleUnit,
     UnitState,
-    Unit, --OK!
+    Unit, --OK
     UnitGroup,
     RaycastHitInfo,
     RaycastParameter,

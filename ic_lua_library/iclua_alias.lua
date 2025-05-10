@@ -56,6 +56,13 @@
 ---|    `ControlKey.UseItem` -- 使用物品
 ---|    `ControlKey.MJump` -- 小跳
 
+---@alias SyncRecInfoMode
+---|    `Multiplayer.SyncRecInfoMode.def` -- 默认
+---|    `Multiplayer.SyncRecInfoMode.mediumLatency` -- 中延迟
+---|    `Multiplayer.SyncRecInfoMode.lowLatency` -- 低延迟
+
+---@alias AudioSource UnityEngine.AudioSource
+---@alias AudioClip UnityEngine.AudioClip
 ---@alias Vector2 UnityEngine.Vector2
 ---@alias Vector3 UnityEngine.Vector3
 ---@alias Vector2Int UnityEngine.Vector2Int
