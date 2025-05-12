@@ -49,17 +49,18 @@ UnityEngine.Color = {
     b = 0,
     a = 0,
 }
+
 ---@class UnityEngine.Sprite
 UnityEngine.Sprite = {}
 
 ---@class UnityEngine.AudioSource
 UnityEngine.AudioSource = {}
 
----@class UnityEngine.AudioClip
-UnityEngine.AudioClip = {}
-
 ---@class UnityEngine.GameObject
 UnityEngine.GameObject = {}
+
+---@class UnityEngine.AudioClip
+UnityEngine.AudioClip = {}
 
 ---二维向量构造方法
 ---@param x Single

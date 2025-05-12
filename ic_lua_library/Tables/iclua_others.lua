@@ -50,7 +50,7 @@ GameWorld = {
 AudioData = {
     ---通过ID获取音频
     ---@param id string 音频ID
-    ---@return AudioData 音频数据
+    ---@return AudioClip 音频数据
     ---@nodiscard
     GetAudioClip = function(id) end;
 }

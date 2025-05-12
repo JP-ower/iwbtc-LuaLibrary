@@ -20,7 +20,7 @@ ArithmeticOperator_Vector = {}
 
 ---向量运算符2
 ---@class ArithmeticOperator_Vector2
-ArithmeticOperator_Vector = {}
+ArithmeticOperator_Vector2 = {}
 
 ---二进制运算符
 ---@class ArithmeticOperator_Binary
