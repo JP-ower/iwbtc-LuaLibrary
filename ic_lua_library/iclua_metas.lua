@@ -3,17 +3,17 @@
 UnityEngine = {}
 
 ---@class UnityEngine.Vector2
----@field x number X坐标
----@field y number Y坐标
+---@field x Single X坐标
+---@field y Single Y坐标
 UnityEngine.Vector2 = {
     x = 0,
     y = 0,
 }
 
 ---@class UnityEngine.Vector3
----@field x number X坐标
----@field y number Y坐标
----@field z number Z坐标
+---@field x Single X坐标
+---@field y Single Y坐标
+---@field z Single Z坐标
 UnityEngine.Vector3 = {
     x = 0,
     y = 0,
@@ -21,17 +21,17 @@ UnityEngine.Vector3 = {
 }
 
 ---@class UnityEngine.Vector2Int
----@field x number X坐标
----@field y number Y坐标
+---@field x Single X坐标
+---@field y Single Y坐标
 UnityEngine.Vector2Int = {
     x = 0,
     y = 0, 
 }
 
 ---@class UnityEngine.Vector3Int
----@field x number X坐标
----@field y number Y坐标
----@field z number Z坐标
+---@field x Single X坐标
+---@field y Single Y坐标
+---@field z Single Z坐标
 UnityEngine.Vector3Int = {
     x = 0,
     y = 0,
@@ -39,10 +39,10 @@ UnityEngine.Vector3Int = {
 }
 
 ---@class UnityEngine.Color
----@field r number 红色
----@field g number 绿色
----@field b number 蓝色
----@field a number 透明度
+---@field r Single 红色(0-1)
+---@field g Single 绿色(0-1)
+---@field b Single 蓝色(0-1)
+---@field a Single 透明度(0-1)
 UnityEngine.Color = {
     r = 0,
     g = 0,
@@ -57,6 +57,9 @@ UnityEngine.AudioSource = {}
 
 ---@class UnityEngine.AudioClip
 UnityEngine.AudioClip = {}
+
+---@class UnityEngine.GameObject
+UnityEngine.GameObject = {}
 
 ---二维向量构造方法
 ---@param x Single

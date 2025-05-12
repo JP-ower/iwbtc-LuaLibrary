@@ -69,6 +69,7 @@
 ---@alias Vector3Int UnityEngine.Vector3Int
 ---@alias Color UnityEngine.Color
 ---@alias Sprite UnityEngine.Sprite
+---@alias GameObject UnityEngine.GameObject
 ---@alias Single number
 ---@alias Int32 number
 ---@alias Object nil|boolean|number|string|table|function|userdata|thread

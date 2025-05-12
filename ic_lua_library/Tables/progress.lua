@@ -21,7 +21,7 @@ local progress = {
     SkillData,--OK
     TimeLineData, --OK
     TriggerData, --OK
-    ColorData,
+    ColorData, --OK
     UnitData, --OK
     FileManager, --OK
     JFY_CurvilinearMotion,
