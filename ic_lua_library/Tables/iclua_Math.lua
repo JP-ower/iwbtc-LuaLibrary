@@ -2,6 +2,8 @@
 ---@class Math
 ---不要把Math和math搞混！Math是ic的函数，math是lua原装函数！
 ---已完成！！
+
+
 Math = {
     ---概率成立（实数）
     ---@param rate Single 概率
