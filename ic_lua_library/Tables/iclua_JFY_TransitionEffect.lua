@@ -1,6 +1,5 @@
 ---@meta
 ---@class JFY_TransitionEffect
-
 JFY_TransitionEffect = {
     ---创建过场动画
     ---@param tei TransEffectIn 进入效果

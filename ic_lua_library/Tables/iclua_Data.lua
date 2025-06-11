@@ -1,7 +1,6 @@
 ---@meta
 ---@class Data
 ---已完成！
-
 Data = {
     ---获取游戏平台是否是手机
     ---@return boolean 游戏平台是手机

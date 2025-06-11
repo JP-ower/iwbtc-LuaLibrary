@@ -1,7 +1,6 @@
 ---@meta
 ---@class UI_InfoPanel
 ---已完成！
-
 UI_InfoPanel = {
     ---获取信息面板显示类型
     ---@return string 信息面板显示类型

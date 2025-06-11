@@ -1,7 +1,6 @@
 ---@meta
 ---@class Multiplayer
 ---已完成！
-
 Multiplayer = {
     ---当前多人模式
     ---@return Multiplayer

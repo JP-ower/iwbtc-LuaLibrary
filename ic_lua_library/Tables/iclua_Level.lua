@@ -1,7 +1,6 @@
 ---@meta
 ---@class Level
 ---已完成！
-
 Level = {
     ---关卡比较
     ---@param level1 Level 

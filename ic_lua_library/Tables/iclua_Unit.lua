@@ -1,6 +1,5 @@
 ---@meta
 ---@class Unit
-
 Unit = {
     ---空单位
     ---@return Unit

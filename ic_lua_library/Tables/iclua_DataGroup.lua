@@ -1,7 +1,6 @@
 ---@meta
 ---@class DataGroup
 ---已完成！
-
 DataGroup = {
 
     ---最后创建的数据组

@@ -1,7 +1,6 @@
 ---@meta
 ---@class TriggerData
 ---已完成！
-
 TriggerData = {
     ---运行自定义事件
     ---@param eventName string 事件名称

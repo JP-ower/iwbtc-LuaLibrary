@@ -1,7 +1,6 @@
 ---@meta
 ---@class GameResourceManager
 ---已完成！
----
 GameResourceManager = {
     ---添加资源
     ---@param name string 资源名称

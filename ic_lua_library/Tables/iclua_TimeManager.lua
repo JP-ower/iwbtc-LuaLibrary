@@ -1,7 +1,6 @@
 ---@meta
 ---@class TimeManager
 ---已完成！
-
 TimeManager = {
     ---获取当前年份(系统时间)
     ---@return Int32 当前年份（整数）

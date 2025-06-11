@@ -1,7 +1,6 @@
 ---@meta
 ---@class MusicManager
 ---已完成！
-
 MusicManager = {
     ---玩家设置中的音乐音量
     ---@return Single

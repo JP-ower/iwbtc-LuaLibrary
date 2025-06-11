@@ -1,7 +1,6 @@
 ---@meta
 ---@class FileManager
 ---已完成！
-
 FileManager = {
     ---将字符串保存到游戏文件中
     ---@param content string 要保存的字符串

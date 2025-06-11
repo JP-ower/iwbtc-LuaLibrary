@@ -1,7 +1,6 @@
 ---@meta
 ---@class UI_InfoBox
 ---已完成！
-
 UI_InfoBox = {
     ---创建
     ---@param title string 标题

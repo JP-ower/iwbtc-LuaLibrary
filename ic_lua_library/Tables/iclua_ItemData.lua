@@ -1,7 +1,6 @@
 ---@meta
 ---@class ItemData
 ---已完成！
-
 ItemData = {
     ---物品数据类型比较
     ---@param data1 ItemData 物品数据

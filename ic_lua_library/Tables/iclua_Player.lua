@@ -1,7 +1,7 @@
 ---@meta
 ---@class Player
+---@field public TriggerPlayer Player
 ---已完成！
-
 Player = {
     ---主玩家
     ---@return Player

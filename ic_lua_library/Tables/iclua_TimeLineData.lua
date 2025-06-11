@@ -1,7 +1,5 @@
 ---@meta
 ---@class TimeLineData
-
-
 TimeLineData = {
     ---时间轴.设置节点时间
     ---@param timeLineData TimeLineData 时间轴

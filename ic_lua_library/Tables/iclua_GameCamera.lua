@@ -1,7 +1,6 @@
 ---@meta
 ---@class GameCamera
 ---已完成！
-
 GameCamera = {
     ---摄像机模式
     ---注意在ic中摄像机模式属于userdata，不是整数，不能直接填整数。

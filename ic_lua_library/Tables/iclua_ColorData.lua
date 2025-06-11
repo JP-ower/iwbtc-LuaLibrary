@@ -1,7 +1,6 @@
 ---@meta
 ---@class ColorData
 ---已完成！
-
 ColorData = {
     ---颜色.创建颜色
     ---@param r Int32 红色值(0-255)

@@ -1,7 +1,6 @@
 ---@meta
 ---@class Game
 ---已完成！
-
 Game = {
 
     ---退出游戏
