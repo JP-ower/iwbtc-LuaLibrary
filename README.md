@@ -1,3 +1,5 @@
+新版仓库链接：https://github.com/JP-ower/lua_library_v2.0
+
 # IWBTC - LuaLibrary
 这里整理了一些 i wanna be the creator 中的函数定义，用于在 vscode 等 IDE 中显示函数提示。
 
